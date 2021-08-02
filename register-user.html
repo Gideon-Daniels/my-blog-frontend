@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register User</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="main">
+        <h4 class="header">Please enter your registration details below</h4>
+
+        <form class = "form" method="post" action="https://cryptic-chamber-65189.herokuapp.com/user-registration">
+            <input class="input" type="text" name="full_name" id="full_name" placeholder="Fullname">
+            <input class="input" type="text" name="last_name" id="last_name" placeholder="Surname">
+            <input class="input" type="text" name="username" id="username" placeholder="Username">
+            <input class="input" type="password" name="password" id="password" placeholder="ID">
+
+            <button class="button" type="submit">Register User</button>
+        </form>
+    </div>
+</body>
+</html>
